@@ -119,7 +119,6 @@ th {
 tr:nth-child(even) {
     background-color: #f8fafc;
 }
-
 /* Pipeline Flowchart Display */
 pre {
     background: #020617;
