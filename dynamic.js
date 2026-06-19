@@ -50,13 +50,17 @@ function loadData(type) {
             <p>Large healthcare data requiring AI processing. Includes images, text, signals and genomic information.</p>
             <h3>Medical Imaging Types</h3>
             <table>
-                <tr><th>Data</th><th>Format</th><th>Python</th><th>AI Model</th></tr>
-                <tr><td>X-Ray</td><td>DICOM, JPG, PNG</td><td>OpenCV, Pydicom</td><td>CNN, ResNet</td></tr>
-                <tr><td>CT Scan</td><td>DICOM, NIFTI</td><td>MONAI, SimpleITK</td><td>3D CNN, U-Net</td></tr>
-                <tr><td>MRI</td><td>DICOM, NIFTI</td><td>Nibabel</td><td>U-Net, Transformer</td></tr>
-                <tr><td>PET</td><td>DICOM</td><td>Pydicom</td><td>CNN</td></tr>
-                <tr><td>Ultrasound</td><td>DICOM, MP4</td><td>OpenCV</td><td>YOLO</td></tr>
-                <tr><td>Histopathology</td><td>SVS, TIFF</td><td>OpenSlide</td><td>Vision Transformer</td></tr>
+                <thead>
+                    <tr><th>Data</th><th>Format</th><th>Python</th><th>AI Model</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>X-Ray</td><td>DICOM, JPG, PNG</td><td>OpenCV, Pydicom</td><td>CNN, ResNet</td></tr>
+                    <tr><td>CT Scan</td><td>DICOM, NIFTI</td><td>MONAI, SimpleITK</td><td>3D CNN, U-Net</td></tr>
+                    <tr><td>MRI</td><td>DICOM, NIFTI</td><td>Nibabel</td><td>U-Net, Transformer</td></tr>
+                    <tr><td>PET</td><td>DICOM</td><td>Pydicom</td><td>CNN</td></tr>
+                    <tr><td>Ultrasound</td><td>DICOM, MP4</td><td>OpenCV</td><td>YOLO</td></tr>
+                    <tr><td>Histopathology</td><td>SVS, TIFF</td><td>OpenSlide</td><td>Vision Transformer</td></tr>
+                </tbody>
             </table>
             <h3>Clinical Text Data</h3>
             <ul>
